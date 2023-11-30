@@ -1,0 +1,71 @@
+
+
+.law1{
+    width: 100%;
+    height: 100vh;
+    
+}
+.law2{
+    width: 100%;
+    height: 100vh;
+}
+.law3{
+    width: 100%;
+    height: 100vh;
+}
+
+/* landing page first three pics  */
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 15rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption h3{
+    font-family: "EBGaramond-Medium";
+    font-size: 60px;
+    font-style: italic;
+}
+
+.carousel-caption p{
+    font-family: 'Quicksand', sans-serif;
+    padding-block: 1rem !important;
+}
+
+.carousel-caption button{
+    padding: 10px 40px !important;
+    background-color: var(--lightblack);
+    color: var(--lightbrown);
+    border: 1px solid var(--lightbrown);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    margin-top: 1rem !important;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 180px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    gap: 10px;
+}
+
+/* landingpagesecsection is start */
+
+.landingpagesecsection{
+    background-color: var(--lightblack) !important;
+    padding: 3rem !important;
+}

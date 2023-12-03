@@ -45,22 +45,22 @@ function LandingPage() {
             <button>GET FREE CONSULTATION</button>
           </Carousel.Caption>
         </Carousel.Item>
-        {/* <Carousel.Item interval={1000}>
-        <img src={law2} alt="Second slide" className='law2  img-fluid'   />
-        <Carousel.Caption>
-          <h3>We prepared to oppose for you</h3>
-          <p>Lorep ipsum dolor sit amet elit. Mauris adio mauris..</p>
-          <button>GET FREE CONSULTATION</button>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={1000}>
-        <img src={law3} alt="Third slide"  className='law3  img-fluid' />
-        <Carousel.Caption>
-          <h3>We prepared to oppose for you</h3>
-          <p>Lorep ipsum dolor sit amet elit. Mauris adio mauris..</p>
-          <button>GET FREE CONSULTATION</button>
-        </Carousel.Caption>
-      </Carousel.Item> */}
+        <Carousel.Item interval={1000}>
+          <img src={law2} alt="Second slide" className='law2  img-fluid' />
+          <Carousel.Caption>
+            <h3>We prepared to oppose for you</h3>
+            <p>Lorep ipsum dolor sit amet elit. Mauris adio mauris..</p>
+            <button>GET FREE CONSULTATION</button>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item interval={1000}>
+          <img src={law3} alt="Third slide" className='law3  img-fluid' />
+          <Carousel.Caption>
+            <h3>We prepared to oppose for you</h3>
+            <p>Lorep ipsum dolor sit amet elit. Mauris adio mauris..</p>
+            <button>GET FREE CONSULTATION</button>
+          </Carousel.Caption>
+        </Carousel.Item>
       </Carousel>
 
       <div className='landingpagesecsection'>
@@ -315,15 +315,15 @@ function LandingPage() {
         <Row>
 
           <Col lg={6} md={6} xs={12}>
-asda
-    
+            asda
+
           </Col>
 
 
           {/* this is three div */}
 
           <Col lg={6} md={6} xs={12}>
-         asd
+            asd
           </Col>
 
 
@@ -333,7 +333,7 @@ asda
 
 
 
-      
+
       {/* Why choose us is End */}
 
 

@@ -1,15 +1,15 @@
-
-
-.law1{
+.law1 {
     width: 100%;
     height: 100vh;
-    
+
 }
-.law2{
+
+.law2 {
     width: 100%;
     height: 100vh;
 }
-.law3{
+
+.law3 {
     width: 100%;
     height: 100vh;
 }
@@ -27,18 +27,18 @@
     text-align: center;
 }
 
-.carousel-caption h3{
+.carousel-caption h3 {
     font-family: "EBGaramond-Medium";
     font-size: 60px;
     font-style: italic;
 }
 
-.carousel-caption p{
+.carousel-caption p {
     font-family: 'Quicksand', sans-serif;
     padding-block: 1rem !important;
 }
 
-.carousel-caption button{
+.carousel-caption button {
     padding: 10px 40px !important;
     background-color: var(--lightblack);
     color: var(--lightbrown);
@@ -65,93 +65,93 @@
 
 /* landingpagesecsection is start */
 
-.landingpagesecsection{
+.landingpagesecsection {
     background-color: var(--lightblack) !important;
     padding: 3rem !important;
 }
 
-.legalpicdiv img{
+.legalpicdiv img {
     width: 30px;
     height: 30px;
 }
 
 /* pic div on fst screen */
 
-.legalpicdiv{
+.legalpicdiv {
     text-align: center;
 }
 
-.legalpicdiv h3{
+.legalpicdiv h3 {
     color: #fff;
     font-family: "EBGaramond-Medium";
     padding-block: 0.2rem !important;
 
 }
 
-.legalpicdiv p{
+.legalpicdiv p {
     color: rgba(239, 239, 239, 0.47);
     font-family: 'Quicksand', sans-serif;
 }
 
-.peoplepicdiv{
+.peoplepicdiv {
     text-align: center;
 }
 
-.peoplepicdiv img{
+.peoplepicdiv img {
     width: 30px;
     height: 30px;
 }
 
-.peoplepicdiv h3{
+.peoplepicdiv h3 {
     color: #fff;
     font-family: "EBGaramond-Medium";
     padding-block: 0.2rem !important;
 
 }
 
-.peoplepicdiv p{
+.peoplepicdiv p {
     color: rgba(239, 239, 239, 0.47);
     font-family: 'Quicksand', sans-serif;
 }
 
-.sucesspicdiv{
+.sucesspicdiv {
     text-align: center;
 }
 
-.sucesspicdiv img{
+.sucesspicdiv img {
     width: 30px;
     height: 30px;
 }
 
-.sucesspicdiv h3{
+.sucesspicdiv h3 {
     color: #fff;
     font-family: "EBGaramond-Medium";
     padding-block: 0.2rem !important;
 
 }
 
-.sucesspicdiv p{
+.sucesspicdiv p {
     color: rgba(239, 239, 239, 0.47);
     font-family: 'Quicksand', sans-serif;
 }
 
-.supportpicdiv{
+.supportpicdiv {
     text-align: center;
 }
 
-.supportpicdiv img{
+.supportpicdiv img {
     width: 30px;
     height: 30px;
 }
 
-.supportpicdiv h3{
+.supportpicdiv h3 {
     color: #fff;
     font-family: "EBGaramond-Medium";
     padding-block: 0.2rem !important;
 
 }
 
-.supportpicdiv p{
+.supportpicdiv p {
     color: rgba(239, 239, 239, 0.47);
     font-family: 'Quicksand', sans-serif;
 }
@@ -160,26 +160,26 @@
 /* about section is start */
 
 
-.aboutpicdiv{
+.aboutpicdiv {
     text-align: center;
     padding-inline: 2rem !important;
     padding-top: 2rem !important;
 }
 
-.aboutpicdiv img{
+.aboutpicdiv img {
     height: 380px;
     width: 380px;
-    
+
 }
 
-.aboutlinepic{
+.aboutlinepic {
     text-align: center;
     padding-top: 3.5rem !important;
     padding-inline: 5rem !important;
 
 }
 
-.aboutlinepic img{
+.aboutlinepic img {
     height: 100px;
     object-fit: cover;
     width: 700px;
@@ -187,7 +187,7 @@
 }
 
 
-.aboutlinepic p{
+.aboutlinepic p {
     text-align: left;
     padding-top: 1rem !important;
     font-family: 'Quicksand', sans-serif;
@@ -196,7 +196,7 @@
     font-size: 15px;
 }
 
-.aboutlinepic button{
+.aboutlinepic button {
     text-align: left;
     display: flex;
     padding: 10px 40px !important;
@@ -213,13 +213,13 @@
 
 /* practiceareadiv is start */
 
-.line2div{
+.line2div {
     text-align: center;
     padding-block: 5rem !important;
 }
 
 
-.practiceareadiv{
+.practiceareadiv {
     text-align: center;
     background-color: black;
     border-radius: 10px;
@@ -228,13 +228,13 @@
     margin-block: 2rem !important;
 }
 
-.practicetext{
+.practicetext {
     background-color: var(--lightblack);
     padding-bottom: 3rem !important;
     border-radius: 1rem;
 }
 
-.practicetext h1{
+.practicetext h1 {
     font-family: "EBGaramond-Medium";
     color: var(--lightbrown);
     font-style: italic;
@@ -243,7 +243,7 @@
     padding-top: 2rem !important;
 }
 
-.practicetext p{
+.practicetext p {
     font-family: 'Quicksand', sans-serif;
     color: #7A7B7D;
     font-size: 14px;
@@ -251,7 +251,7 @@
     padding-inline: 1rem !important;
 }
 
-.practicetext button{
+.practicetext button {
     border: 1px solid var(--lightbrown);
     background-color: transparent;
     font-family: 'Quicksand', sans-serif;
@@ -260,7 +260,7 @@
     padding: 0.4rem 1.4rem !important;
 }
 
-.home3{
+.home3 {
     height: 55px;
 }
 
@@ -270,7 +270,7 @@
 
 /* why choose is start */
 
-.line3div{
+.line3div {
     text-align: center;
     padding-block: 3rem !important;
 }
@@ -286,7 +286,7 @@
 /* media queries */
 
 @media screen and (max-width:770px) {
-    .aboutlinepic img{
+    .aboutlinepic img {
         height: 100px;
         object-fit: cover;
         width: 400px;
@@ -298,14 +298,16 @@
         height: 328px;
         width: 276px;
     }
-    .aboutlinepic{
+
+    .aboutlinepic {
         padding-inline: 3rem !important;
     }
 
-    .line2div{
+    .line2div {
         display: none;
     }
-    .line3div{
+
+    .line3div {
         display: none;
     }
 

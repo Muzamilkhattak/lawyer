@@ -161,6 +161,7 @@
 
 
 .aboutpicdiv{
+    text-align: center;
     padding-inline: 2rem !important;
     padding-top: 2rem !important;
 }
@@ -302,6 +303,9 @@
     }
 
     .line2div{
+        display: none;
+    }
+    .line3div{
         display: none;
     }
 

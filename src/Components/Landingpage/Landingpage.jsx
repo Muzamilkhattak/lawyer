@@ -311,6 +311,28 @@ function LandingPage() {
 
 
 
+      <Container   >
+        <Row>
+
+          <Col lg={6} md={6} xs={12}>
+asda
+    
+          </Col>
+
+
+          {/* this is three div */}
+
+          <Col lg={6} md={6} xs={12}>
+         asd
+          </Col>
+
+
+        </Row>
+
+      </Container>
+
+
+
       
       {/* Why choose us is End */}
 

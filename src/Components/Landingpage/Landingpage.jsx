@@ -31,7 +31,18 @@ import home6 from '../../Assets/Img/home6.svg'
 // why choose us pic is here
 
 import chooseline from '../../Assets/Img/line3.png'
+import tolpic from '../../Assets/Img/tolmanpic.svg'
 
+// meet our team
+import meetline from '../../Assets/Img/meetline.png'
+import man1from from '../../Assets/Img/man1.svg'
+import man2from from '../../Assets/Img/man2.svg'
+import man3from from '../../Assets/Img/man3.svg'
+import man4from from '../../Assets/Img/man4.svg'
+
+import facebook from '../../Assets/Img/facebook.svg'
+import camera from '../../Assets/Img/camera.svg'
+import twitter from '../../Assets/Img/twitter.svg'
 
 function LandingPage() {
   return (
@@ -311,19 +322,75 @@ function LandingPage() {
 
 
 
-      <Container   >
+      <Container  >
         <Row>
 
-          <Col lg={6} md={6} xs={12}>
-            asda
+          <Col lg={8} md={6} xs={12}>
+
+            <div className='choosediv'>
+
+              <div className='bgchoose'>
+                <div className='chooseimgdiv'>
+                  <img src={home5} alt="" />
+                </div>
+              </div>
+
+              <div className='choosetext'>
+                <h1>Best Law Practices</h1>
+                <p>Lorem ipsum dolor sit amet elit. Phasellus nec
+                  pretium <br />
+                  mi. Curabitur facilisis ornare velit non
+                  vulputate.</p>
+              </div>
+
+            </div>
+
+
+            <div className='choosediv'>
+
+              <div className='bgchoose'>
+                <div className='chooseimgdiv'>
+                  <img className='home3' src={home1} alt="" />
+                </div>
+              </div>
+
+              <div className='choosetext'>
+                <h1>Efficiency & Trust</h1>
+                <p>Lorem ipsum dolor sit amet elit. Phasellus nec
+                  pretium <br />
+                  mi. Curabitur facilisis ornare velit non
+                  vulputate.</p>
+              </div>
+
+            </div>
+
+            <div className='choosediv'>
+
+              <div className='bgchoose'>
+                <div className='chooseimgdiv'>
+                  <img className='home3' src={home1} alt="" />
+                </div>
+              </div>
+
+              <div className='choosetext'>
+                <h1>Results you deserve</h1>
+                <p>Lorem ipsum dolor sit amet elit. Phasellus nec
+                  pretium <br />
+                  mi. Curabitur facilisis ornare velit non
+                  vulputate.</p>
+              </div>
+
+            </div>
 
           </Col>
 
 
-          {/* this is three div */}
 
-          <Col lg={6} md={6} xs={12}>
-            asd
+
+          <Col lg={4} md={6} xs={12}>
+            <div className='tolpic'>
+              <img src={tolpic} alt="tolpic" />
+            </div>
           </Col>
 
 
@@ -331,10 +398,83 @@ function LandingPage() {
 
       </Container>
 
-
-
-
       {/* Why choose us is End */}
+
+      {/* meet our team is start */}
+
+      <div className='line3div'>
+        <img src={meetline} alt="" />
+      </div>
+
+
+
+      <Container  >
+        <Row>
+
+          <Col lg={3} md={6} xs={12}>
+
+            <div className='mandiv'>
+              <img src={man1from} alt="" />
+
+              {/* <div className='iconsdivmeet'>
+                <img src={camera} alt="" />
+                <img src={facebook} alt="" />
+                <img src={twitter} alt="" />
+              </div> */}
+
+            </div>
+
+          </Col>
+
+          <Col lg={3} md={6} xs={12}>
+            <div className='mandiv'>
+              <img src={man2from} alt="" />
+
+              {/* <div className='iconsdivmeet'>
+                <img src={camera} alt="" />
+                <img src={facebook} alt="" />
+                <img src={twitter} alt="" />
+              </div> */}
+
+            </div>
+
+          </Col>
+
+          <Col lg={3} md={6} xs={12}>
+            <div className='mandiv'>
+              <img src={man3from} alt="" />
+
+              {/* <div className='iconsdivmeet'>
+                <img src={camera} alt="" />
+                <img src={facebook} alt="" />
+                <img src={twitter} alt="" />
+              </div> */}
+
+            </div>
+
+          </Col>
+
+          <Col lg={3} md={6} xs={12}>
+            <div className='mandiv'>
+              <img src={man4from} alt="" />
+
+              {/* <div className='iconsdivmeet'>
+                <img src={camera} alt="" />
+                <img src={facebook} alt="" />
+                <img src={twitter} alt="" />
+              </div> */}
+
+            </div>
+
+          </Col>
+
+
+
+        </Row>
+
+      </Container>
+
+      {/* meet our team is End */}
 
 
     </>

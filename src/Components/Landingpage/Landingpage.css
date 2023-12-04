@@ -261,7 +261,7 @@
 }
 
 .home3 {
-    height: 55px;
+    height: 55px !important;
 }
 
 /* practiceareadiv is End */
@@ -274,6 +274,87 @@
     text-align: center;
     padding-block: 3rem !important;
 }
+
+.choosediv {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-left: 5rem !important;
+    margin-block: 1rem !important;
+}
+
+.bgchoose {
+    padding: 2rem !important;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.choosetext h1 {
+    font-family: EB Garamond;
+    font-size: 40px;
+    font-style: italic;
+    color: black;
+}
+
+.choosetext p {
+    color: #747474;
+    font-family: Quicksand;
+    font-size: 14px;
+}
+
+.chooseimgdiv img {
+    background: #121518;
+    border-radius: 8px;
+    padding: 0.7rem !important;
+    height: 60px;
+}
+
+.tolpic img {
+    height: 350px;
+    width: 400px;
+}
+
+
+/* meeting section is start */
+
+/* .mandiv{
+    border: 1px solid red;
+    position: relative;
+} */
+
+
+.mandiv img {
+
+    height: 354px;
+    width: 253px;
+}
+
+.iconsdivmeet {
+    background-color: var(--lightbrown);
+    display: flex;
+    padding: 1rem !important;
+
+}
+
+.iconsdivmeet img {
+    height: 20px;
+}
+
+/* meeting section is end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* why choose is end */
 

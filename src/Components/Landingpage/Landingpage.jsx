@@ -12,11 +12,13 @@ import legalpic from '../../Assets/Img/legalpic.png'
 import pooplepic from '../../Assets/Img/peoplepic.png'
 import sucesspic from '../../Assets/Img/sucesspic.png'
 import supportpic from '../../Assets/Img/supportpic.png'
+import Navbar from '../Navbar/Navbar';
 
 
 function IndividualIntervalsExample() {
   return (
     <>
+    <Navbar/>
     <Carousel>
       <Carousel.Item interval={1000}>
         <img src={law1} alt="First slide"   className='law1 img-fluid' />

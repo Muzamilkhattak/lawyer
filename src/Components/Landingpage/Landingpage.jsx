@@ -12,7 +12,6 @@ import legalpic from '../../Assets/Img/legalpic.png'
 import pooplepic from '../../Assets/Img/peoplepic.png'
 import sucesspic from '../../Assets/Img/sucesspic.png'
 import supportpic from '../../Assets/Img/supportpic.png'
-import Navbar from '../Navbar/Navbar';
 
 // about us pic
 import aboutpic from '../../Assets/Img/about.svg'
@@ -51,39 +50,13 @@ import tolpic2 from '../../Assets/Img/tolman2.svg'
 
 // react bootstrap according
 import Accordion from 'react-bootstrap/Accordion';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 function LandingPage() {
   return (
     <>
-<<<<<<< HEAD
     <Navbar/>
-    <Carousel>
-      <Carousel.Item interval={1000}>
-        <img src={law1} alt="First slide"   className='law1 img-fluid' />
-        <Carousel.Caption>
-          <h3>We prepared to oppose for you</h3>
-          <p>Lorep ipsum dolor sit amet elit. Mauris adio mauris..</p>
-          <button>GET FREE CONSULTATION</button>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={1000}>
-        <img src={law2} alt="Second slide" className='law2  img-fluid'   />
-        <Carousel.Caption>
-          <h3>We prepared to oppose for you</h3>
-          <p>Lorep ipsum dolor sit amet elit. Mauris adio mauris..</p>
-          <button>GET FREE CONSULTATION</button>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={1000}>
-        <img src={law3} alt="Third slide"  className='law3  img-fluid' />
-        <Carousel.Caption>
-          <h3>We prepared to oppose for you</h3>
-          <p>Lorep ipsum dolor sit amet elit. Mauris adio mauris..</p>
-          <button>GET FREE CONSULTATION</button>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-=======
       <Carousel>
         <Carousel.Item interval={1000}>
           <img src={law1} alt="First slide" className='law1 img-fluid' />
@@ -536,7 +509,6 @@ function LandingPage() {
       </Container>
 
       {/* meet our team is End */}
->>>>>>> fd7dc50140bad97613786245dd81c411aec02916
 
 
       {/* have a question is start */}
@@ -629,6 +601,9 @@ function LandingPage() {
         </Row>
 
       </Container>
+
+
+      <Footer/>
 
 
 

@@ -322,6 +322,9 @@
     position: relative;
 } */
 
+.mandiv {
+    text-align: center;
+}
 
 .mandiv img {
 
@@ -329,18 +332,86 @@
     width: 253px;
 }
 
+/* .iconandbg{
+    background-color: black;
+} */
+
 .iconsdivmeet {
     background-color: var(--lightbrown);
     display: flex;
     padding: 1rem !important;
+    margin-inline: 2rem !important;
+    border-radius: 8px;
+    margin-top: -0.7rem !important;
 
 }
 
 .iconsdivmeet img {
-    height: 20px;
+    height: 18px;
+}
+
+.mandiv h3 {
+    color: var(--lightbrown);
+    font-family: EB Garamond;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+
+.mandiv p {
+    color: #747474;
+
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
 }
 
 /* meeting section is end */
+
+
+/* have a question is staart */
+
+.tolpic {
+    text-align: center;
+}
+
+.tolpic2 img {
+    height: 417px;
+    width: 456px;
+    text-align: center;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+
+    color: #282828;
+
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+.accordinddivheading {
+    background-color: black;
+    color: var(--lightbrown);
+    padding: 0.1rem 0.8rem !important;
+    margin-right: 1rem !important;
+}
+
+
+
+
+
+
+
+
+
+/* have a question is End */
 
 
 

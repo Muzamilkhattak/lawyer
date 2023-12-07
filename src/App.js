@@ -11,7 +11,7 @@ import Landingpage from './Components/Landingpage/Landingpage';
 
 export default function App() {
   return (
-    <div>
+    <div className='main'>
 
 <Router>
       <Routes>

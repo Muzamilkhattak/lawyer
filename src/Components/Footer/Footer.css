@@ -4,7 +4,7 @@
     width: 100%; 
     background-color: black;
     padding: 30px 50px !important;
-    margin-top: 10px !important;
+    /* margin-top: 10px !important; */
 }
 .footerma2{
     display: flex;

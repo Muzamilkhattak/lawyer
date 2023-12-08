@@ -1,0 +1,111 @@
+.loginmain{
+display: flex;
+height: 70vh;
+}
+.loginleft{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.loginleft img{
+width: 80%;
+height: 55vh;
+}
+.loginright{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.loginform{
+width: 50%;
+height: 65vh;
+border-radius: 16.658px;
+border: 1.19px solid #A0A0A0;
+background: #FFF;
+padding: 15px 20px;
+position: relative;
+}
+
+.loginform div:nth-child(1){
+    color: #000;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.loginform span:nth-of-type(1){
+    color: #AA9166;
+}
+
+.loginform div:nth-child(2){
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.loginform label{
+color: black;
+font-size: 14px;
+font-weight: 450;
+padding-bottom: 3px;
+}
+.loginform input{
+    width: 100%;
+    height: 35px;
+margin-bottom: 10px;
+border-radius: 7.139px;
+border: 1.19px solid #A0A0A0;
+background: #FFF;
+text-indent: 10px;
+outline: none;
+font-size: 14px;
+font-weight: 450;
+}
+.loginform svg{
+    position: absolute;
+    top: 51%;
+    right: 10%;
+    cursor: pointer;
+}
+.loginform input::placeholder{
+    font-size: 14px;
+    color: black;
+}
+.loginform div:nth-of-type(3){
+padding: 10px 0px;
+text-align: right;
+color: #AA9166;
+font-family: Quicksand;
+font-size: 15px;
+font-style: normal;
+cursor: pointer;
+}
+.loginform div:nth-of-type(3) a{
+    color: #AA9166;
+    text-decoration: none;
+}
+.loginform button{
+    width: 100%;
+    border-radius: 3.57px;
+    background: #AA9166;
+    color: white;
+    border: none;
+    height: 35px;
+}
+.loginform div:nth-of-type(4){
+padding-top: 10px;
+text-align: center;
+font-size: 15px;
+font-weight: 500;
+}
+.loginform span:nth-of-type(2){
+    cursor: pointer;
+}
+.loginform div:nth-of-type(4) span a{
+    cursor: pointer;
+    color: #AA9166;
+    text-decoration: none;
+}

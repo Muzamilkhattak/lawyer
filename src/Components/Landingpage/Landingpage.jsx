@@ -48,7 +48,7 @@ import twitter from '../../Assets/Img/twitter.svg'
 function LandingPage() {
   return (
     <>
-<<<<<<< HEAD
+{/* <<<<<<< HEAD */}
     <Navbar/>
     <Carousel>
       <Carousel.Item interval={1000}>

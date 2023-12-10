@@ -384,9 +384,8 @@
 }
 
 .accordion-item:first-of-type .accordion-button {
-    border-top-left-radius: var(--bs-accordion-inner-border-radius);
-    border-top-right-radius: var(--bs-accordion-inner-border-radius);
-
+    border: none !important;
+    padding: 1rem !important;
     color: #282828;
 
     font-family: Quicksand;
@@ -398,17 +397,57 @@
 
 .accordinddivheading {
     background-color: black;
+    border: none !important;
     color: var(--lightbrown);
     padding: 0.1rem 0.8rem !important;
     margin-right: 1rem !important;
 }
 
 
+.accordion-button {
+    padding: 1rem !important;
+    color: #282828;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: transparent;
+    border: none !important;
+}
+
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: var(--bs-accordion-bg);
+    border: none !important;
+    outline: none !important;
+    padding: 0.5rem !important;
+}
 
 
+.accordion-body {
+    font-size: 14px;
+    color: #747474;
+font-weight: 500;
+font-family: Quicksand;
+padding-top: 1rem !important;
+}
 
 
+.askmorebutton{
+     text-align: center;
+     margin-block: 2rem !important;
+}
 
+
+.askmorebutton button{
+    background-color: var(--lightblack);
+    color: var(--lightbrown);
+    padding: 0.5rem 2rem !important;
+    border-radius: 5px;
+    border: none;
+    font-family: Quicksand;
+    font-size: 14px;
+}
 
 
 /* have a question is End */

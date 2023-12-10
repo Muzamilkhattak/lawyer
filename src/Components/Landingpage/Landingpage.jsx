@@ -48,6 +48,9 @@ import twitter from '../../Assets/Img/twitter.svg'
 import havealine from '../../Assets/Img/haveaquestionline.png'
 import tolpic2 from '../../Assets/Img/tolman2.svg'
 
+// Client review line
+import clientreviewline from '../../Assets/Img/clientreviewline.png'
+
 // react bootstrap according
 import Accordion from 'react-bootstrap/Accordion';
 import Navbar from '../Navbar/Navbar';
@@ -57,8 +60,8 @@ function LandingPage() {
   return (
     <>
     <Navbar/>
-      <Carousel>
-        <Carousel.Item interval={1000}>
+      <Carousel style={{background : 'gray'}}>
+        <Carousel.Item interval={100}>
           <img src={law1} alt="First slide" className='law1 img-fluid' />
           <Carousel.Caption>
             <h3>We prepared to oppose for you</h3>
@@ -66,7 +69,7 @@ function LandingPage() {
             <button>GET FREE CONSULTATION</button>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={100}>
           <img src={law2} alt="Second slide" className='law2  img-fluid' />
           <Carousel.Caption>
             <h3>We prepared to oppose for you</h3>
@@ -74,7 +77,7 @@ function LandingPage() {
             <button>GET FREE CONSULTATION</button>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={100}>
           <img src={law3} alt="Third slide" className='law3  img-fluid' />
           <Carousel.Caption>
             <h3>We prepared to oppose for you</h3>
@@ -545,7 +548,9 @@ function LandingPage() {
               </Accordion.Item>
               <Accordion.Item eventKey="1">
   
-                <Accordion.Header>Lorme Ipsum dolor sit amet?</Accordion.Header>
+                <Accordion.Header>
+                <div className='accordinddivheading'>2</div>
+                  Lorme Ipsum dolor sit amet?</Accordion.Header>
                 <Accordion.Body>
 
                   Lorem ipsum dolor sit, consectetur adipscing elit, phasellus nec pretium mi,
@@ -554,7 +559,9 @@ function LandingPage() {
               </Accordion.Item>
 
               <Accordion.Item eventKey="2">
-                <Accordion.Header>Lorme Ipsum dolor sit amet?</Accordion.Header>
+                <Accordion.Header>
+                <div className='accordinddivheading'>3</div>
+                  Lorme Ipsum dolor sit amet?</Accordion.Header>
                 <Accordion.Body>
                   Lorem ipsum dolor sit, consectetur adipscing elit, phasellus nec pretium mi,
                   Curabitur facillisis ornare velit non.
@@ -562,7 +569,9 @@ function LandingPage() {
               </Accordion.Item>
 
               <Accordion.Item eventKey="3">
-                <Accordion.Header>Lorme Ipsum dolor sit amet?</Accordion.Header>
+                <Accordion.Header>
+                <div className='accordinddivheading'>4</div>
+                  Lorme Ipsum dolor sit amet?</Accordion.Header>
                 <Accordion.Body>
                   Lorem ipsum dolor sit, consectetur adipscing elit, phasellus nec pretium mi,
                   Curabitur facillisis ornare velit non.
@@ -571,7 +580,9 @@ function LandingPage() {
 
 
               <Accordion.Item eventKey="4">
-                <Accordion.Header>Lorme Ipsum dolor sit amet?</Accordion.Header>
+                <Accordion.Header>
+                <div className='accordinddivheading'>5</div>
+                  Lorme Ipsum dolor sit amet?</Accordion.Header>
                 <Accordion.Body>
 
                   Lorem ipsum dolor sit, consectetur adipscing elit, phasellus nec pretium mi,
@@ -580,36 +591,37 @@ function LandingPage() {
               </Accordion.Item>
 
 
-              <Accordion.Item eventKey="5">
-                <Accordion.Header>Accordion Item #2</Accordion.Header>
-                <Accordion.Body>
-
-                  Lorem ipsum dolor sit, consectetur adipscing elit, phasellus nec pretium mi,
-                  Curabitur facillisis ornare velit non.
-                </Accordion.Body>
-              </Accordion.Item>
+            
 
             </Accordion>
           </Col>
-
-
-
-
-
 
 
         </Row>
 
       </Container>
 
-
-      <Footer/>
-
+      <div className='askmorebutton'>
+        <button>ASK MORE</button>
+      </div>
 
 
       {/* have a question is End */}
 
 
+      {/* Client Review is Start */}
+
+
+      <div className='line3div'>
+        <img src={clientreviewline} alt="" />
+      </div>
+
+
+      
+      {/* Client Review  is End */}
+
+
+      <Footer/>
     </>
   );
 }

@@ -24,7 +24,7 @@ height: 65vh;
 border-radius: 16.658px;
 border: 1.19px solid #A0A0A0;
 background: #FFF;
-padding: 15px 20px;
+padding: 15px 20px !important;
 position: relative;
 }
 
@@ -43,19 +43,19 @@ position: relative;
     color: #666;
     font-size: 14px;
     font-weight: 500;
-    padding-bottom: 10px;
+    padding-bottom: 10px !important;
 }
 
 .loginform label{
 color: black;
 font-size: 14px;
 font-weight: 450;
-padding-bottom: 3px;
+padding-bottom: 3px !important;
 }
 .loginform input{
     width: 100%;
     height: 35px;
-margin-bottom: 10px;
+margin-bottom: 10px !important;
 border-radius: 7.139px;
 border: 1.19px solid #A0A0A0;
 background: #FFF;
@@ -75,7 +75,7 @@ font-weight: 450;
     color: black;
 }
 .loginform div:nth-of-type(3){
-padding: 10px 0px;
+padding: 10px 0px !important;
 text-align: right;
 color: #AA9166;
 font-family: Quicksand;
@@ -96,7 +96,7 @@ cursor: pointer;
     height: 35px;
 }
 .loginform div:nth-of-type(4){
-padding-top: 10px;
+padding-top: 10px !important;
 text-align: center;
 font-size: 15px;
 font-weight: 500;
@@ -108,4 +108,36 @@ font-weight: 500;
     cursor: pointer;
     color: #AA9166;
     text-decoration: none;
+}
+
+@media(max-width:1024px){
+    .loginmain {
+        display: flex;
+        height: 76vh;
+    }
+
+    .loginform {
+        width: 57%;
+        height: 72vh;
+    }
+}
+
+@media(max-width:768px){
+    .loginform {
+        width: 70%;
+        height: 72vh;
+    }
+    .loginform svg{
+        position: absolute;
+        top: 54.5%;
+        right: 10%;
+        cursor: pointer;
+    }
+}
+
+@media(max-width:430px){
+.loginleft{
+    display: none;
+}
+
 }

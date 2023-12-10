@@ -12,7 +12,6 @@ import legalpic from '../../Assets/Img/legalpic.png'
 import pooplepic from '../../Assets/Img/peoplepic.png'
 import sucesspic from '../../Assets/Img/sucesspic.png'
 import supportpic from '../../Assets/Img/supportpic.png'
-import Navbar from '../Navbar/Navbar';
 
 // about us pic
 import aboutpic from '../../Assets/Img/about.svg'
@@ -38,45 +37,30 @@ import tolpic from '../../Assets/Img/tolmanpic.svg'
 import meetline from '../../Assets/Img/meetline.png'
 import man1from from '../../Assets/Img/man1.svg'
 import man2from from '../../Assets/Img/man2.svg'
-import man3from from '../../Assets/Img/man3.svg'
-import man4from from '../../Assets/Img/man4.svg'
+// import man3from from '../../Assets/Img/man3.svg'
+// import man4from from '../../Assets/Img/man4.svg'
 
 import facebook from '../../Assets/Img/facebook.svg'
 import camera from '../../Assets/Img/camera.svg'
 import twitter from '../../Assets/Img/twitter.svg'
 
+// have a question line
+import havealine from '../../Assets/Img/haveaquestionline.png'
+import tolpic2 from '../../Assets/Img/tolman2.svg'
+
+// react bootstrap according
+import Accordion from 'react-bootstrap/Accordion';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
+
 function LandingPage() {
   return (
     <>
 {/* <<<<<<< HEAD */}
+{/* <<<<<<< HEAD */}
+{/* ======= */}
+{/* >>>>>>> 4a3ba68f2329513b2dbb6256d0a425c3b3878489 */}
     <Navbar/>
-    <Carousel>
-      <Carousel.Item interval={1000}>
-        <img src={law1} alt="First slide"   className='law1 img-fluid' />
-        <Carousel.Caption>
-          <h3>We prepared to oppose for you</h3>
-          <p>Lorep ipsum dolor sit amet elit. Mauris adio mauris..</p>
-          <button>GET FREE CONSULTATION</button>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={1000}>
-        <img src={law2} alt="Second slide" className='law2  img-fluid'   />
-        <Carousel.Caption>
-          <h3>We prepared to oppose for you</h3>
-          <p>Lorep ipsum dolor sit amet elit. Mauris adio mauris..</p>
-          <button>GET FREE CONSULTATION</button>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={1000}>
-        <img src={law3} alt="Third slide"  className='law3  img-fluid' />
-        <Carousel.Caption>
-          <h3>We prepared to oppose for you</h3>
-          <p>Lorep ipsum dolor sit amet elit. Mauris adio mauris..</p>
-          <button>GET FREE CONSULTATION</button>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-=======
       <Carousel>
         <Carousel.Item interval={1000}>
           <img src={law1} alt="First slide" className='law1 img-fluid' />
@@ -446,11 +430,57 @@ function LandingPage() {
             <div className='mandiv'>
               <img src={man1from} alt="" />
 
-              {/* <div className='iconsdivmeet'>
-                <img src={camera} alt="" />
-                <img src={facebook} alt="" />
-                <img src={twitter} alt="" />
-              </div> */}
+              <div className='iconandbg'>
+                <div className='iconsdivmeet'>
+                  <img src={camera} alt="" />
+                  <img src={facebook} alt="" />
+                  <img src={twitter} alt="" />
+                </div>
+
+                <h3>Adam Phillips</h3>
+                <p>Business Consultant</p>
+
+              </div>
+            </div>
+
+          </Col>
+
+          <Col lg={3} md={6} xs={12}>
+            <div className='mandiv'>
+              <img src={man2from} alt="" />
+
+              <div className='iconandbg'>
+                <div className='iconsdivmeet'>
+                  <img src={camera} alt="" />
+                  <img src={facebook} alt="" />
+                  <img src={twitter} alt="" />
+                </div>
+
+                <h3>Adam Phillips</h3>
+                <p>Business Consultant</p>
+
+              </div>
+
+
+            </div>
+
+          </Col>
+
+          <Col lg={3} md={6} xs={12}>
+            <div className='mandiv'>
+              <img src={man1from} alt="" />
+
+              <div className='iconandbg'>
+                <div className='iconsdivmeet'>
+                  <img src={camera} alt="" />
+                  <img src={facebook} alt="" />
+                  <img src={twitter} alt="" />
+                </div>
+
+                <h3>Adam Phillips</h3>
+                <p>Business Consultant</p>
+
+              </div>
 
             </div>
 
@@ -460,39 +490,17 @@ function LandingPage() {
             <div className='mandiv'>
               <img src={man2from} alt="" />
 
-              {/* <div className='iconsdivmeet'>
-                <img src={camera} alt="" />
-                <img src={facebook} alt="" />
-                <img src={twitter} alt="" />
-              </div> */}
+              <div className='iconandbg'>
+                <div className='iconsdivmeet'>
+                  <img src={camera} alt="" />
+                  <img src={facebook} alt="" />
+                  <img src={twitter} alt="" />
+                </div>
 
-            </div>
+                <h3>Adam Phillips</h3>
+                <p>Business Consultant</p>
 
-          </Col>
-
-          <Col lg={3} md={6} xs={12}>
-            <div className='mandiv'>
-              <img src={man3from} alt="" />
-
-              {/* <div className='iconsdivmeet'>
-                <img src={camera} alt="" />
-                <img src={facebook} alt="" />
-                <img src={twitter} alt="" />
-              </div> */}
-
-            </div>
-
-          </Col>
-
-          <Col lg={3} md={6} xs={12}>
-            <div className='mandiv'>
-              <img src={man4from} alt="" />
-
-              {/* <div className='iconsdivmeet'>
-                <img src={camera} alt="" />
-                <img src={facebook} alt="" />
-                <img src={twitter} alt="" />
-              </div> */}
+              </div>
 
             </div>
 
@@ -505,7 +513,105 @@ function LandingPage() {
       </Container>
 
       {/* meet our team is End */}
->>>>>>> fd7dc50140bad97613786245dd81c411aec02916
+
+
+      {/* have a question is start */}
+
+
+      <div className='line3div'>
+        <img src={havealine} alt="" />
+      </div>
+
+
+      <Container  >
+        <Row>
+
+          <Col lg={6} md={6} xs={12}>
+            <div className='tolpic2'>
+              <img src={tolpic2} alt="tolpic2" />
+            </div>
+
+          </Col>
+
+
+          <Col lg={6} md={6} xs={12}>
+            <Accordion defaultActiveKey="0">
+              <Accordion.Item eventKey="0">
+                
+                <Accordion.Header>
+                <div className='accordinddivheading'>1</div>
+                  Lorme Ipsum dolor sit amet?</Accordion.Header>
+                <Accordion.Body>
+
+                  Lorem ipsum dolor sit, consectetur adipscing elit, phasellus nec pretium mi,
+                  Curabitur facillisis ornare velit non.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+  
+                <Accordion.Header>Lorme Ipsum dolor sit amet?</Accordion.Header>
+                <Accordion.Body>
+
+                  Lorem ipsum dolor sit, consectetur adipscing elit, phasellus nec pretium mi,
+                  Curabitur facillisis ornare velit non.
+                </Accordion.Body>
+              </Accordion.Item>
+
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>Lorme Ipsum dolor sit amet?</Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit, consectetur adipscing elit, phasellus nec pretium mi,
+                  Curabitur facillisis ornare velit non.
+                </Accordion.Body>
+              </Accordion.Item>
+
+              <Accordion.Item eventKey="3">
+                <Accordion.Header>Lorme Ipsum dolor sit amet?</Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit, consectetur adipscing elit, phasellus nec pretium mi,
+                  Curabitur facillisis ornare velit non.
+                </Accordion.Body>
+              </Accordion.Item>
+
+
+              <Accordion.Item eventKey="4">
+                <Accordion.Header>Lorme Ipsum dolor sit amet?</Accordion.Header>
+                <Accordion.Body>
+
+                  Lorem ipsum dolor sit, consectetur adipscing elit, phasellus nec pretium mi,
+                  Curabitur facillisis ornare velit non.
+                </Accordion.Body>
+              </Accordion.Item>
+
+
+              <Accordion.Item eventKey="5">
+                <Accordion.Header>Accordion Item #2</Accordion.Header>
+                <Accordion.Body>
+
+                  Lorem ipsum dolor sit, consectetur adipscing elit, phasellus nec pretium mi,
+                  Curabitur facillisis ornare velit non.
+                </Accordion.Body>
+              </Accordion.Item>
+
+            </Accordion>
+          </Col>
+
+
+
+
+
+
+
+        </Row>
+
+      </Container>
+
+
+      <Footer/>
+
+
+
+      {/* have a question is End */}
 
 
     </>

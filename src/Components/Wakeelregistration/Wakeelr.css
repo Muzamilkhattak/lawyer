@@ -1,0 +1,24 @@
+.wakeelrmain{
+display: flex;
+height: 90vh;
+}
+.wakeelrleft{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.wakeelrleft img{
+width: 75%;
+height: 80vh;
+}
+.wakeelrright{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wakelrform{
+
+}

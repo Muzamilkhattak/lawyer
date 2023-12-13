@@ -52,6 +52,7 @@ height: 50px;
         display: block;
         color: white;
         z-index: 6;
+        transform: rotate(90deg);
     }
     .listitems{
         list-style: none;
@@ -62,7 +63,7 @@ height: 50px;
         gap: 20px;
         color: #AA9166;
         width: 40%;
-        transition: 2s;
+        transition: 1s;
         height: 100vh;
         background-color: black;
         /* position: absolute; */
@@ -81,7 +82,7 @@ height: 50px;
         gap: 20px;
         color: #AA9166;
         width: 40%;
-        transition: 2s;
+        transition: 1s;
         height: 100vh;
         background-color: black;
         /* position: absolute; */

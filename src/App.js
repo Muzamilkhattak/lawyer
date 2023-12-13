@@ -8,6 +8,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './Components/Login/Login';
 import Landingpage from './Components/Landingpage/Landingpage';
+import Register from './Components/Register/Register';
+import Wakeelr from './Components/Wakeelregistration/Wakeelr';
+import Contact from './Components/Contactus/Contact';
 
 export default function App() {
   return (
@@ -17,6 +20,9 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Login/>} />
         <Route path='/landingpage' element={<Landingpage/>} />
+        <Route path='/register' element={<Register/>} />
+        <Route path='/register-wa' element={<Wakeelr/>} />
+        <Route path='/contact' element={<Contact/>} />
       </Routes>
     </Router>
 

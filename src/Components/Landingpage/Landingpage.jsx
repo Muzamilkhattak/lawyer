@@ -59,6 +59,10 @@ import Footer from '../Footer/Footer';
 function LandingPage() {
   return (
     <>
+{/* <<<<<<< HEAD */}
+{/* <<<<<<< HEAD */}
+{/* ======= */}
+{/* >>>>>>> 4a3ba68f2329513b2dbb6256d0a425c3b3878489 */}
     <Navbar/>
       <Carousel style={{background : 'gray'}}>
         <Carousel.Item interval={100}>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar';
 import './Contact.css'
-import logo from '../../Assets/Img/login.svg'
+import logo from '../../Assets/Img/login3.png'
 import MapComponent from './Mapcom';
 import Footer from '../Footer/Footer';
 

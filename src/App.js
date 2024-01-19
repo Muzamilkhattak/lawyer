@@ -12,6 +12,7 @@ import Register from './Components/Register/Register';
 import Wakeelr from './Components/Wakeelregistration/Wakeelr';
 import Contact from './Components/Contactus/Contact';
 import Media from './Components/Media/Media';
+import About from './Components/Aboutus/About';
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path='/register-wa' element={<Wakeelr/>} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/media' element={<Media/>} />
+        <Route path='/about' element={<About/>} />
       </Routes>
     </Router>
 

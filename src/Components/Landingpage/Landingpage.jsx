@@ -56,15 +56,28 @@ import Accordion from 'react-bootstrap/Accordion';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 
+
+// swiper js
+import { Swiper, SwiperSlide } from 'swiper/react';
+import swiperpic from '../../Assets/Img/swiperpic.png'
+import client1 from '../../Assets/Img/client1.svg'
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+
+// import required modules
+import { Pagination } from 'swiper/modules';
+
+
 function LandingPage() {
   return (
     <>
-{/* <<<<<<< HEAD */}
-{/* <<<<<<< HEAD */}
-{/* ======= */}
-{/* >>>>>>> 4a3ba68f2329513b2dbb6256d0a425c3b3878489 */}
-    <Navbar/>
-      <Carousel style={{background : 'gray'}}>
+
+      <Navbar />
+      <Carousel style={{ background: 'gray' }}>
         <Carousel.Item interval={100}>
           <img src={law1} alt="First slide" className='law1 img-fluid' />
           <Carousel.Caption>
@@ -540,9 +553,9 @@ function LandingPage() {
           <Col lg={6} md={6} xs={12}>
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="0">
-                
+
                 <Accordion.Header>
-                <div className='accordinddivheading'>1</div>
+                  <div className='accordinddivheading'>1</div>
                   Lorme Ipsum dolor sit amet?</Accordion.Header>
                 <Accordion.Body>
 
@@ -551,9 +564,9 @@ function LandingPage() {
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
-  
+
                 <Accordion.Header>
-                <div className='accordinddivheading'>2</div>
+                  <div className='accordinddivheading'>2</div>
                   Lorme Ipsum dolor sit amet?</Accordion.Header>
                 <Accordion.Body>
 
@@ -564,7 +577,7 @@ function LandingPage() {
 
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                <div className='accordinddivheading'>3</div>
+                  <div className='accordinddivheading'>3</div>
                   Lorme Ipsum dolor sit amet?</Accordion.Header>
                 <Accordion.Body>
                   Lorem ipsum dolor sit, consectetur adipscing elit, phasellus nec pretium mi,
@@ -574,7 +587,7 @@ function LandingPage() {
 
               <Accordion.Item eventKey="3">
                 <Accordion.Header>
-                <div className='accordinddivheading'>4</div>
+                  <div className='accordinddivheading'>4</div>
                   Lorme Ipsum dolor sit amet?</Accordion.Header>
                 <Accordion.Body>
                   Lorem ipsum dolor sit, consectetur adipscing elit, phasellus nec pretium mi,
@@ -585,7 +598,7 @@ function LandingPage() {
 
               <Accordion.Item eventKey="4">
                 <Accordion.Header>
-                <div className='accordinddivheading'>5</div>
+                  <div className='accordinddivheading'>5</div>
                   Lorme Ipsum dolor sit amet?</Accordion.Header>
                 <Accordion.Body>
 
@@ -595,7 +608,7 @@ function LandingPage() {
               </Accordion.Item>
 
 
-            
+
 
             </Accordion>
           </Col>
@@ -621,11 +634,149 @@ function LandingPage() {
       </div>
 
 
-      
+
       {/* Client Review  is End */}
 
 
-      <Footer/>
+      {/* blog section is start */}
+      <div className="mainswiperdiv">
+      <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+ <SwiperSlide>
+
+<div className='swipercard'>
+
+  <div className='clientinsidetheppic'>
+    <img src={client1} alt="" />
+  </div>
+
+  <div className='clietntext'>
+    <h2>Client Muneeb</h2>
+    <p>Lorem ipsum dolor sit amet, Consectetue
+      adipiscing elit. Etiam accumsan lacus
+      eget velit.</p>
+  </div>
+
+
+</div>
+
+</SwiperSlide>
+
+        <SwiperSlide>
+
+          <div className='swipercard'>
+
+            <div className='clientinsidetheppic'>
+              <img src={client1} alt="" />
+            </div>
+
+            <div className='clietntext'>
+              <h2>Client Muzamil</h2>
+              <p>Lorem ipsum dolor sit amet, Consectetue
+                adipiscing elit. Etiam accumsan lacus
+                eget velit.</p>
+            </div>
+
+
+          </div>
+
+        </SwiperSlide>
+
+        <SwiperSlide>
+
+          <div className='swipercard'>
+
+            <div className='clientinsidetheppic'>
+              <img src={client1} alt="" />
+            </div>
+
+            <div className='clietntext'>
+              <h2>Client Name</h2>
+              <p>Lorem ipsum dolor sit amet, Consectetue
+                adipiscing elit. Etiam accumsan lacus
+                eget velit.</p>
+            </div>
+
+
+          </div>
+
+        </SwiperSlide>
+
+
+    <SwiperSlide>
+
+          <div className='swipercard'>
+
+            <div className='clientinsidetheppic'>
+              <img src={client1} alt="" />
+            </div>
+
+            <div className='clietntext'>
+              <h2>Client Name</h2>
+              <p>Lorem ipsum dolor sit amet, Consectetue
+                adipiscing elit. Etiam accumsan lacus
+                eget velit.</p>
+            </div>
+
+
+          </div>
+
+        </SwiperSlide>
+
+        
+        <SwiperSlide>
+
+<div className='swipercard'>
+
+  <div className='clientinsidetheppic'>
+    <img src={client1} alt="" />
+  </div>
+
+  <div className='clietntext'>
+    <h2>Client Name</h2>
+    <p>Lorem ipsum dolor sit amet, Consectetue
+      adipiscing elit. Etiam accumsan lacus
+      eget velit.</p>
+  </div>
+
+
+</div>
+
+</SwiperSlide>
+<SwiperSlide>
+
+<div className='swipercard'>
+
+  <div className='clientinsidetheppic'>
+    <img src={client1} alt="" />
+  </div>
+
+  <div className='clietntext'>
+    <h2>Client Name</h2>
+    <p>Lorem ipsum dolor sit amet, Consectetue
+      adipiscing elit. Etiam accumsan lacus
+      eget velit.</p>
+  </div>
+
+
+</div>
+
+</SwiperSlide>
+
+      </Swiper>
+      </div>
+      {/* blog section is end */}
+
+
+      <Footer />
     </>
   );
 }

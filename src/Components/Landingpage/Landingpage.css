@@ -427,19 +427,19 @@
 .accordion-body {
     font-size: 14px;
     color: #747474;
-font-weight: 500;
-font-family: Quicksand;
-padding-top: 1rem !important;
+    font-weight: 500;
+    font-family: Quicksand;
+    padding-top: 1rem !important;
 }
 
 
-.askmorebutton{
-     text-align: center;
-     margin-block: 2rem !important;
+.askmorebutton {
+    text-align: center;
+    margin-block: 2rem !important;
 }
 
 
-.askmorebutton button{
+.askmorebutton button {
     background-color: var(--lightblack);
     color: var(--lightbrown);
     padding: 0.5rem 2rem !important;
@@ -454,19 +454,91 @@ padding-top: 1rem !important;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* why choose is end */
+
+
+/* swiper js blog is start */
+
+
+.mainswiperdiv {
+    margin-inline: 5rem !important;
+    margin-bottom: 4rem !important;
+}
+
+.swiper {
+    width: 100% !important;
+    height: 100% !important;
+
+}
+
+.swiper-wrapper {
+
+    gap: 2rem;
+
+
+}
+
+
+.swipercard {
+    border: 1px solid black;
+    border-radius: 6px;
+    background: #121518;
+    display: flex;
+    gap: 2rem;
+    padding-inline: 1rem !important;
+    height: 195px;
+}
+
+
+
+.clientinsidetheppic img {
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 1rem;
+    margin-top: 30px !important;
+}
+
+
+.clietntext {
+    padding-block: 2rem !important;
+}
+
+.clietntext h2 {
+    color: var(--lightbrown);
+    text-align: left;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.clietntext p {
+    color: #747474;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 1rem !important;
+}
+
+.swiper-slide {
+    /* border: 2px solid red; */
+    height: 200px !important;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    cursor: pointer;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* swiper js blog is end */
 
 
 

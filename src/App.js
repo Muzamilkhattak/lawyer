@@ -13,6 +13,7 @@ import Wakeelr from './Components/Wakeelregistration/Wakeelr';
 import Contact from './Components/Contactus/Contact';
 import Media from './Components/Media/Media';
 import About from './Components/Aboutus/About';
+import Blog from './Components/Blog/Blog';
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <Route path='/contact' element={<Contact/>} />
         <Route path='/media' element={<Media/>} />
         <Route path='/about' element={<About/>} />
+        <Route path='/blog' element={<Blog/>} />
       </Routes>
     </Router>
 

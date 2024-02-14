@@ -3,6 +3,8 @@ import './Navbar.css'
 import logo from '../../Assets/Img/log.png'
 import { useNavigate } from 'react-router-dom';
 
+import { Link } from 'react-router-dom';
+
 function Navbar() {
 const navigate = useNavigate();
 
@@ -27,10 +29,16 @@ const navigate = useNavigate();
         <div className={toogle ? "listitems2" : "listitems"}>
           <li>Home</li>
           <li>Draft Documents</li>
+          <Link to={'/startabusiness'}>
           <li>Start a Busniness</li>
+          </Link>
+          <Link to={'/media'}>
           <li>Media</li>
+          </Link>
           <li>Services</li>
+          <Link to={'/blog'}>
           <li>Blog</li>
+          </Link>
         </div>
 
         <div className="logoutbut" onClick={gotologin}>

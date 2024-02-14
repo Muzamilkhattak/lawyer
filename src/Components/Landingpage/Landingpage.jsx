@@ -13,6 +13,8 @@ import pooplepic from '../../Assets/Img/peoplepic.png'
 import sucesspic from '../../Assets/Img/sucesspic.png'
 import supportpic from '../../Assets/Img/supportpic.png'
 
+import { Link } from 'react-router-dom';
+
 // about us pic
 import aboutpic from '../../Assets/Img/about.svg'
 // import aboutlinepic from '../../Assets/Img/aboutusline.svg'
@@ -78,28 +80,34 @@ function LandingPage() {
 
       <Navbar />
       <Carousel style={{ background: 'gray' }}>
-        <Carousel.Item interval={100}>
+        <Carousel.Item >
           <img src={law1} alt="First slide" className='law1 img-fluid' />
           <Carousel.Caption>
             <h3>We prepared to oppose for you</h3>
             <p>Lorep ipsum dolor sit amet elit. Mauris adio mauris..</p>
+            <Link to={'/landingpage2'}>
             <button>GET FREE CONSULTATION</button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={100}>
+        <Carousel.Item >
           <img src={law2} alt="Second slide" className='law2  img-fluid' />
           <Carousel.Caption>
             <h3>We prepared to oppose for you</h3>
             <p>Lorep ipsum dolor sit amet elit. Mauris adio mauris..</p>
+             <Link to={'/landingpage2'}>
             <button>GET FREE CONSULTATION</button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={100}>
+        <Carousel.Item >
           <img src={law3} alt="Third slide" className='law3  img-fluid' />
           <Carousel.Caption>
             <h3>We prepared to oppose for you</h3>
             <p>Lorep ipsum dolor sit amet elit. Mauris adio mauris..</p>
+             <Link to={'/landingpage2'}>
             <button>GET FREE CONSULTATION</button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

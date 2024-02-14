@@ -34,7 +34,7 @@
 
 .loginform div:nth-child(1) {
     color: #000;
-    font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -45,7 +45,7 @@
 }
 
 .loginform div:nth-child(2) {
-    font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
     color: #666;
     font-size: 14px;
     font-weight: 500;
@@ -54,7 +54,7 @@
 
 .loginform label {
     color: black;
-    font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     font-weight: 500;
     padding-bottom: 3px !important;
@@ -75,7 +75,7 @@
 
 .loginform svg {
     position: absolute;
-    top: 51%;
+    top: 52%;
     right: 10%;
     cursor: pointer;
 }
@@ -89,7 +89,7 @@
     padding: 10px 0px !important;
     text-align: right;
     color: #AA9166;
-    font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
     font-size: 15px;
     font-style: normal;
     cursor: pointer;
@@ -115,7 +115,7 @@
     text-align: center;
     font-size: 15px;
     font-weight: 500;
-    font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .loginform span:nth-of-type(2) {

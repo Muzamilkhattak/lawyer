@@ -14,6 +14,9 @@ import Contact from './Components/Contactus/Contact';
 import Media from './Components/Media/Media';
 import About from './Components/Aboutus/About';
 import Blog from './Components/Blog/Blog';
+import Startabusiness from './Components/StartaBusiness/Startabusiness';
+import LandingPage2 from './Components/LandingPage2/LandingPage2';
+import Lawyer from './Components/Lawyerprofile/Lawyer';
 
 export default function App() {
   return (
@@ -29,6 +32,9 @@ export default function App() {
         <Route path='/media' element={<Media/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/blog' element={<Blog/>} />
+        <Route path='/startabusiness' element={<Startabusiness/>} />
+        <Route path='/landingpage2' element={<LandingPage2/>} />
+        <Route path='/lawyer' element={<Lawyer/>} />
       </Routes>
     </Router>
 

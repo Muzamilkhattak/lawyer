@@ -28,9 +28,11 @@ function Footer() {
         <div className="ffourth">
           <div className='color'>Contacts</div>
           <div>Contacts Us</div>
-          <div>Jungle khel kohat</div>
-          <div>Support@askwakeel.pk</div>
-          <div>03249518191</div>
+          <div>Kohat University</div>
+          <div>Muneebjee1997@gmail.com</div>
+          <div>Muzamilktk3@gmail.com</div>
+          <div>rauf62874@gmail.com</div>
+          <div>+923329827667</div>
         </div>
 
       </div>

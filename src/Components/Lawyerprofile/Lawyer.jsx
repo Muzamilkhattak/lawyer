@@ -41,7 +41,7 @@ export default function Lawyer() {
 
       <div className="personcontent">
         <h1>Introduction</h1>
-        <p>Mr. Muhammad Zubair is an English Barrister of the Honourable Society of Lincoln’s Inn with over 12 years of legal practice. He has an LLM
+        <p>Mr. Muhammad Zubair is an English COMNPUTER scientist of the Honourable Society of Lincoln’s Inn with over 12 years of legal practice. He has an LLM
           (Masters in Law) degree from the UK. He is an expert in family, civil, criminal, and criminal,and corporate law. He has a wide range
           of practice areas. For his credentials and international record, please visit his following profile links
           <br />

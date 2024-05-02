@@ -313,18 +313,7 @@ export default function LandingPage2() {
 
 
 
-                    <SwiperSlide>
-                        <Link to='/muneeblawyer'>
-                            <div className="swiperimage">
-                                <img src={man1} alt="" />
-                                <div className="imagebelow">
-                                    <div>Rizwan Sadiq</div>
-                                    <div>Video Editor</div>
-                                    <div>8 Years</div>
-                                </div>
-                            </div>
-                        </Link>
-                    </SwiperSlide>
+                 
 
                     <SwiperSlide>
                         <Link to='/muzamillawyer2'>

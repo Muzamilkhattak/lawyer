@@ -17,6 +17,8 @@ import Blog from './Components/Blog/Blog';
 import Startabusiness from './Components/StartaBusiness/Startabusiness';
 import LandingPage2 from './Components/LandingPage2/LandingPage2';
 import Lawyer from './Components/Lawyerprofile/Lawyer';
+import Swal from 'sweetalert2';
+import 'animate.css';
 
 export default function App() {
   return (
@@ -37,6 +39,7 @@ export default function App() {
         <Route path='/lawyer' element={<Lawyer/>} />
       </Routes>
     </Router>
+
 
     </div>
   )

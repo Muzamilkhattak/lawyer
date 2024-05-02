@@ -68,6 +68,9 @@ import client1 from '../../Assets/Img/client1.svg'
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+import Swal from 'sweetalert2';
+import 'animate.css';
+
 
 
 // import required modules
@@ -75,6 +78,27 @@ import { Pagination } from 'swiper/modules';
 
 
 function LandingPage() {
+  const handleClick = () => {
+
+    Swal.fire({
+      title: "welcome to wakkeel apka",
+      showClass: {
+        popup: `
+          animate__animated
+          animate__fadeInUp
+          animate__faster
+        `
+      },
+      hideClass: {
+        popup: `
+          animate__animated
+          animate__fadeOutUp
+          animate__faster
+        `
+      }
+    });
+    // You can put any logic you want to execute when the button is clicked here
+  };
   return (
     <>
 
@@ -111,6 +135,9 @@ function LandingPage() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <button onClick={handleClick}  className='custom-button'>Click me</button>
+      
+
 
       <div className='landingpagesecsection'>
         <Container fluid>

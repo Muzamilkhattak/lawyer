@@ -178,6 +178,12 @@
     padding-inline: 5rem !important;
 
 }
+.custom-button{
+
+    background-color:  var(--lightblack) !important;
+    color: bisque;
+}
+
 
 .aboutlinepic img {
     height: 100px;

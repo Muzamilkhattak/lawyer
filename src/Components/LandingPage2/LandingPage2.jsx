@@ -47,12 +47,14 @@ export default function LandingPage2() {
 
 
             <div className='landingpage2div'>
+            
 
                 <div className='landingpage2content'>
+
                     <h1>MAKING LEGAL SIMPLE</h1>
                     <p>EASY-QUICK-AFFAFFORDABLE</p>
 
-
+                     <button  id="clickbtn">click me </button>
                     <div className="landingpagepopup">
                         <h4>Apka lawyer Now</h4>
 

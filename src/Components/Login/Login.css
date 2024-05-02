@@ -24,7 +24,7 @@
 
 .loginform {
     width: 50%;
-    height: 54vh;
+    height: 58vh;
     border-radius: 16.658px;
     border: 1.19px solid #A0A0A0;
     background: #FFF;
@@ -75,7 +75,7 @@
 
 .loginform svg {
     position: absolute;
-    top: 52%;
+    top: 50%;
     right: 10%;
     cursor: pointer;
 }
@@ -128,6 +128,31 @@
     text-decoration: none;
 }
 
+@media(max-width:1350px) {
+
+    .loginform svg {
+        position: absolute;
+        top: 60%;
+        right: 10%;
+        cursor: pointer;
+
+    }
+    
+
+}
+@media(max-width:1250px) {
+
+    .loginform svg {
+        position: absolute;
+        top: 60%;
+        right: 10%;
+        cursor: pointer;
+    }
+    
+
+}
+
+
 @media(max-width:1024px) {
     .loginmain {
         display: flex;
@@ -157,6 +182,13 @@
 @media(max-width:430px) {
     .loginleft {
         display: none;
+    }
+
+    .loginform svg {
+        position: absolute;
+        top: 48%;
+        right: 10%;
+        cursor: pointer;
     }
 
 }

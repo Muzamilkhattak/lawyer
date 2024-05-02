@@ -2,13 +2,16 @@
 import './Landingpage2.css'
 import Navbar from '../Navbar/Navbar'
 
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import { Navigation } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 
 
@@ -25,12 +28,9 @@ import workpic2 from '../../Assets/Img/work3.svg'
 import workpic3 from '../../Assets/Img/work4.svg'
 import workpic4 from '../../Assets/Img/work5.svg'
 import workpic5 from '../../Assets/Img/work6.svg'
-import girlmain from '../../Assets/Img/girlmain.svg'
-import girlmain2 from '../../Assets/Img/girlman2.svg'
-import gman3 from '../../Assets/Img/gman3.svg'
-import gman4 from '../../Assets/Img/gman4.svg'
-import gman5 from '../../Assets/Img/gman5.svg'
-import gman6 from '../../Assets/Img/gman6.svg'
+import man1 from '../../Assets/Img/man1.svg'
+import man2 from '../../Assets/Img/man2.svg'
+import man3 from '../../Assets/Img/man3.svg'
 import videopic from '../../Assets/Img/video.svg'
 import textpic from '../../Assets/Img/text.svg'
 
@@ -40,6 +40,12 @@ import Col from 'react-bootstrap/Col';
 import Footer from '../Footer/Footer';
 
 export default function LandingPage2() {
+
+
+    const [swiperRef, setSwiperRef] = useState(null);
+    console.log(swiperRef);
+
+
     return (
         <div>
 
@@ -220,73 +226,132 @@ export default function LandingPage2() {
                     council and expert in his/her field..</p>
             </div>
 
-            <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
-                <SwiperSlide>
-                    <div className='girman'>
-                        <img id='girlmainpic' src={girlmain} alt="" />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='girman'>
-                        <img id='girlmainpic' src={girlmain2} alt="" />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='girman'>
-                        <img id='girlmainpic' src={gman3} alt="" />
-                    </div>
-                </SwiperSlide>
 
-                <SwiperSlide>
-                    <div className='girman'>
-                        <img id='girlmainpic' src={gman4} alt="" />
-                    </div>
-                </SwiperSlide>
+            {/* aaaaaaaaaaaaaaa */}
 
-                <SwiperSlide>
-                    <div className='girman'>
-                        <img id='girlmainpic' src={gman5} alt="" />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='girman'>
-                        <img id='girlmainpic' src={gman6} alt="" />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='girman'>
-                        <img id='girlmainpic' src={girlmain} alt="" />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='girman'>
-                        <img id='girlmainpic' src={girlmain2} alt="" />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='girman'>
-                        <img id='girlmainpic' src={gman3} alt="" />
-                    </div>
-                </SwiperSlide>
 
-                <SwiperSlide>
-                    <div className='girman'>
-                        <img id='girlmainpic' src={gman4} alt="" />
-                    </div>
-                </SwiperSlide>
 
-                <SwiperSlide>
-                    <div className='girman'>
-                        <img id='girlmainpic' src={gman5} alt="" />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='girman'>
-                        <img id='girlmainpic' src={gman6} alt="" />
-                    </div>
-                </SwiperSlide>
 
-            </Swiper>
+
+
+            <div data-aos="zoom-in" data-aos-duration="1000" className="maindivoftalentswiper">
+                <Swiper
+                    onSwiper={setSwiperRef}
+                    spaceBetween={30}
+                    loop={true} // Enable looping
+                    pagination={{
+                        type: 'fraction',
+                    }}
+                    effect={'coverflow'}
+                    grabCursor={true}
+                    centeredSlides={true}
+                    slidesPerView={'auto'}
+                    coverflowEffect={{
+                        rotate: 0,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 2.5,
+                    }}
+                    navigation={true}
+                    modules={[Pagination, Navigation]}
+                    className="mySwiper"
+                    breakpoints={{
+                        500: {
+                            slidesPerView: 1,
+                        },
+                        768: {
+                            slidesPerView: 1,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                        },
+                    }}
+                    slideActiveClass="swiper-slide-active-custom"
+                    slideNextClass="swiper-slide-next-custom"
+                    slidePrevClass="swiper-slide-prev-custom"
+                >
+                    <SwiperSlide>
+                        <Link to='/muneeblawyer'>
+                            <div className="swiperimage">
+                                <img src={man1} alt="" />
+                                <div className="imagebelow">
+                                    <div>Faizan Khan</div>
+                                    <div>Full Stack / MERN Stack Developer</div>
+                                    <div>6 Years</div>
+                                </div>
+                            </div>
+                        </Link>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <Link to='/muzamillawyer2'>
+                            <div className="swiperimage">
+                                <img src={man2} alt="" />
+                                <div className="imagebelow">
+                                    <div>Junaid Durrani</div>
+                                    <div>Application Developer</div>
+                                    <div>5 Years</div>
+                                </div>
+                            </div>
+                        </Link>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <Link to='/rauflawyer3'>
+                            <div className="swiperimage">
+                                <img src={man3} alt="" />
+                                <div className="imagebelow">
+                                    <div>Ahmed Hamza</div>
+                                    <div>Creative UI/UX Designer</div>
+                                    <div>6 Years</div>
+                                </div>
+                            </div>
+                        </Link>
+                    </SwiperSlide>
+
+
+
+                    <SwiperSlide>
+                        <Link to='/muneeblawyer'>
+                            <div className="swiperimage">
+                                <img src={man1} alt="" />
+                                <div className="imagebelow">
+                                    <div>Rizwan Sadiq</div>
+                                    <div>Video Editor</div>
+                                    <div>8 Years</div>
+                                </div>
+                            </div>
+                        </Link>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <Link to='/muzamillawyer2'>
+                            <div className="swiperimage">
+                                <img src={man2} alt="" />
+                                <div className="imagebelow">
+                                    <div>Fazal Rehman</div>
+                                    <div>UX UI designer</div>
+                                    <div>5 Years</div>
+                                </div>
+                            </div>
+                        </Link>
+                    </SwiperSlide>
+
+
+
+
+
+
+                </Swiper>
+            </div>
+
+
+
+
+
+
+            {/* aaaaaaaaaaaa */}
+
 
             <div className='videodiv'>
                 <img src={videopic} alt="" />
